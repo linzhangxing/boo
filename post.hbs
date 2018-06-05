@@ -73,12 +73,24 @@
                 <!--</a>-->
             <!--</section>-->
 
-
+            <div class="social-share-wrapper">
+                <div class="social-share"></div>
+            </div>
 
         </footer>
         {{!-- Add Disqus code here --}}
     </article>
 </main>
+
+<script src="/assets/js/social-share.min.js"></script>
+<script>
+    socialShare('.social-share', {
+        sites: [{{{social_share_items}}}],
+        wechatQrcodeTitle: "分享到微信朋友圈",
+        wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
+    });
+</script>
+
 
 {{!-- Links to Previous/Next posts --}}
 <!--<aside class="read-next">-->
