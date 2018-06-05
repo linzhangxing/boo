@@ -1931,7 +1931,7 @@ body:not(.page-template) .post-title {
 @media only screen and (max-width: 500px) {
 
     .post-template .content .post-title, h1 {
-        font-size: 3.25rem;
+        font-size: 3.0rem;
     }
 
     h2 {
