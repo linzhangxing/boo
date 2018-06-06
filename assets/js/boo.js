@@ -1,7 +1,7 @@
 function load163Song(container) {
     let mid = container.getAttribute("mid");
     let src = container.getAttribute("src");
-    fetch("/api/?id=" + mid).then(function (res) {
+    fetch("/163music/?id=" + mid).then(function (res) {
         return res.json()
     }).then(function (data) {
         const mp = new mePlayer({
