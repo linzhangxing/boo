@@ -14,7 +14,7 @@ function load163Song(container){
             }]
         });
     });
-};
+}
 
 function initAllPlayer(){
     let elements = document.getElementsByClassName("yyy");

@@ -188,7 +188,7 @@ body {
     max-height: 100%;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.01rem;
-    font-size: 1.8rem;
+    font-size: 1.65rem;
     line-height: 1.75em;
     color: #616161;
     -webkit-font-feature-settings: 'kern' 1;
@@ -543,7 +543,7 @@ button {
 .inner {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -1036,7 +1036,7 @@ body.nav-opened .nav {
 .post {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 750px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EEEEEE 1px solid;
@@ -1610,7 +1610,7 @@ body:not(.page-template) .post-title {
 .pagination {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 750px;
     margin: 4rem auto;
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
