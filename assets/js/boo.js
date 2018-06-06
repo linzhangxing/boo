@@ -4,18 +4,6 @@ function load163Song(container) {
     fetch("http://music.huaji8.top/?id=" + mid).then(function (res) {
         return res.json()
     }).then(function (data) {
-        // const ap = new APlayer({
-        //     container : container,
-        //     lrcType: 1,
-        //     audio: [{
-        //         name: data.info.songs[0].name,
-        //         artist: data.info.songs[0].ar.map(function(ar){ return ar.name }).join(','),
-        //         url: src!=null?src:data.url.url,
-        //         cover: data.pic.url,
-        //         lrc: data.lyric.lyric
-        //     }]
-        // });
-
         const mp = new mePlayer({
             target: container,
             music: {
